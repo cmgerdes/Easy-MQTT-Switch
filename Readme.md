@@ -26,7 +26,7 @@ note: other automation controllers can be used, however all instructions and sou
 The build is, in general fairly simple.  You will do the following:
 1. order the parts.
 2. Edit the source code to have your network and mqtt server information, upload the code to the wemos via usb.
-3. Wire the wemos to the relay and add output wires.
+3. Wire the control board to the relay and add output wires.
 4. Test (ensure that you can connect and control the relay pins using home assistant or whatever home automation controller you're using)
 5. Print the enclosure and place the wemos and relay in it.
 
@@ -37,7 +37,7 @@ Note: if you want different specifications for current handling etc. then feel f
 
 ## Software setup
 There are two steps to the software setup:
-1. Editing the YAML files for home assistant so it can utilize the wemos switch.
+1. Editing the YAML files for home assistant so it can utilize the MQTT switch.
 2. Editing and uploading the software to the wemos
 
 ### Editing the YAML files for home assistant
