@@ -54,6 +54,8 @@ Once you have the code compiling, edit the following values:
 7. mqtt_user - the user you have set up on your mqtt server for connecting
 8. mqtt_pass - the password for the mqtt user you have set up on your mqtt server
 
+Finally, connect your wemos via usb and go to sketch > upload. Once the upload is done, disconnect the wemos and reconnect it.  If you watch your wifi networks you should see a new one pop up with the name you gave for host.  Connect to this network and browse to 192.168.4.1.  Enter your wireless network's ssid and password here.  Assuming you get no error and the AP goes away then setup is complete and the wemos is good to go.
+
 
 ## Electronics build
 The primary focus of this project was making the electronics build simple.  Below are the steps:
