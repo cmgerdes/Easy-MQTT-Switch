@@ -6,6 +6,11 @@ If the components listed in the BOM are used, this is capable of controller both
 
 If different current ratings etc. are required then different parts from the BOM could be substituted in fairly easily.
 
+Note: I based the design of this off of the below garage door controller:
+http://automatedhome.party/2017/01/06/wifi-garage-door-controller-using-a-wemos-d1-mini/
+
+The circuits have been modified to remove the garage door sensor and the code heavily modified to function as a switch rather than a garage door controller, but the code and libraries formed the basis for this project.
+
 ## Limitations and maintenance
 
 This is intended to be a simple project.  The goals are broad application with low maintenance and low complexity enabling easy implementation by beginnings.
