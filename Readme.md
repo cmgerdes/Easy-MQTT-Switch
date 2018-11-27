@@ -22,6 +22,8 @@ To accomplish this project you will need the following skills:
 2. 3d printer (for the enclosure).
 3. very basic coding skills.
 
+As with any project or device you create yourself, you do so at your own risk.  Please ensure you know how to work with electricity and that you wire and use this in a safe way.
+
 ## Prerequisites
 You will need the following:
 1. An MQTT server
