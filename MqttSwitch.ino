@@ -9,21 +9,21 @@
 ////**********START CUSTOM PARAMS******************//
  
 //Define parameters for the http firmware update
-const char* host = "MqttSwitch";
-const char* update_path = "/WebFirmwareUpgrade";
-const char* update_username = "<yourPreferredUsername>";
-const char* update_password = "<yourPreferredPassword>";
+const char* host = "MqttSwitch"; // This is the name of the AP that will be created for setup.
+const char* update_path = "/WebFirmwareUpgrade"; // leave as is
+const char* update_username = "<yourPreferredUsername>"; // this is the user you want to use to login to the wemos to set it up
+const char* update_password = "<yourPreferredPassword>"; // this is the password you want to use to set up the wemos.
  
 //Define the pins
 #define RELAY_PIN 5
 #define CONFIG_TRIGGER_PIN 3
  
 //Define MQTT Params. If you don't need to 
-#define mqtt_server "<TheIPOfYourMQTTServer>"
-#define switch_topic "MqttSwitch/switch"
-#define mqtt_sub "MqttSwitch/#"
-const char* mqtt_user = "<yourMQTTServierUser>"; 
-const char* mqtt_pass = "yourMQTTServerPassword";
+#define mqtt_server "<TheIPOfYourMQTTServer>" // this is the IP of the mqtt server the wemos will connect to
+#define switch_topic "MqttSwitch/switch" // This is the name of the mqtt topic.  I recommend just changing the part before the forward slash.
+#define mqtt_sub "MqttSwitch/#" // this is the topic your wemos will subscribe to.  Just change the first part to match what you have above.
+const char* mqtt_user = "<yourMQTTServierUser>"; // this is the user you use to connect to MQTT
+const char* mqtt_pass = "yourMQTTServerPassword"; // this is the password you use to connect to MQTT.
  
 //************END CUSTOM PARAMS********************//
 //This can be used to output the date the code was compiled
