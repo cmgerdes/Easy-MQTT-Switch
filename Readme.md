@@ -52,7 +52,7 @@ Note: if you already have a switch section in your configuration.yaml in home as
 first, open the WemosSwitch.ino in the arduino IDE.  You can download the arduino IDE here: https://www.arduino.cc/en/Main/Software
 
 Download the .ino located below and open in the arduino IDE:
-
+https://github.com/cmgerdes/Easy-Wemos-Switch/blob/master/MqttSwitch.ino
 
 Compile the code, you will most likely need to retrieve several libraries.  Below is a list of locations for libraries you will most likely need:
 1. WiFiManager.h - https://randomnerdtutorials.com/wifimanager-with-esp8266-autoconnect-custom-parameter-and-manage-your-ssid-and-password/
