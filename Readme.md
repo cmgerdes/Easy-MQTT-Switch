@@ -6,6 +6,8 @@ If the components listed in the BOM are used, this is capable of controller both
 
 If different current ratings etc. are required then different parts from the BOM could be substituted in fairly easily.
 
+For someone who has done basic soldering etc. before, this build should only take a couple hours at most not including print time.
+
 Note: I based the design of this off of the below garage door controller:
 http://automatedhome.party/2017/01/06/wifi-garage-door-controller-using-a-wemos-d1-mini/
 
