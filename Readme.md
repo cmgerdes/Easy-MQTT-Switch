@@ -42,14 +42,17 @@ There are two steps to the software setup:
 
 ### Editing the YAML files for home assistant
 Updating home assistant to use the Wemos switch should be fairly simple.  Simply do the following:
-1. edit your configuration.yaml to add the code located in the file here: 
+1. edit your configuration.yaml to add the code located in the file here: https://github.com/cmgerdes/Easy-Wemos-Switch/blob/master/Configuration.yaml
 2. edit the state_topic and command_topic to your preferred values.
 3. validate your config and restart home assistant
 
 Note: if you already have a switch section in your configuration.yaml in home assistant, then simply drop that line (don't add the section twice).
 
 ### Editing the wemos software and uploading
-first, open the WemosSwitch.ino in the arduino IDE.  You can download the arduino IDE here:
+first, open the WemosSwitch.ino in the arduino IDE.  You can download the arduino IDE here: https://www.arduino.cc/en/Main/Software
+
+Download the .ino located below and open in the arduino IDE:
+
 
 Compile the code, you will most likely need to retrieve several libraries.  Below is a list of locations for libraries you will most likely need:
 1. WiFiManager.h - https://randomnerdtutorials.com/wifimanager-with-esp8266-autoconnect-custom-parameter-and-manage-your-ssid-and-password/
