@@ -2,7 +2,7 @@
 
 This project is intended to be a very simple wemos switch. This is simple to set up and hook up to home assistant, and will allow you to control devices from your home assistant controller.
 
-If the components listed in the BOM are used, this is capable of controller both signal wires (example: turn a gas fireplace on/off) or a 120v or 220v light.
+If the components listed in the BOM are used, this is capable of controller both signal wires (example: turn a gas fireplace on/off) or a 120v or 220v light. The total cost including a usb power adapter (which you probably have already) is $15.  It's $10 without he power adapter.
 
 If different current ratings etc. are required then different parts from the BOM could be substituted in fairly easily.
 
@@ -31,7 +31,7 @@ The build is, in general fairly simple.  You will do the following:
 5. Print the enclosure and place the wemos and relay in it.
 
 ## Parts order
-Order the parts from the BOM located here:
+Order the parts from the BOM located here: https://github.com/cmgerdes/Easy-Wemos-Switch/blob/master/BOM.txt
 
 Note: if you want different specifications for current handling etc. then feel free to order a different relay.  When ordering the relay make sure it can be controlled by a 5v signal and requires low current to turn on.  For high current applications, consider using an SSR.
 
@@ -42,7 +42,7 @@ There are two steps to the software setup:
 
 ### Editing the YAML files for home assistant
 Updating home assistant to use the Wemos switch should be fairly simple.  Simply do the following:
-1. edit your configuration.yaml to add the code located in the file here:
+1. edit your configuration.yaml to add the code located in the file here: 
 2. edit the state_topic and command_topic to your preferred values.
 3. validate your config and restart home assistant
 
