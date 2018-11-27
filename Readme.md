@@ -12,7 +12,9 @@ This is intended to be a simple project.  The goals are broad application with l
 As with any project or device you create yourself, you do so at your own risk.  Please ensure you know how to work with electricity and that you wire and use this in a safe way.
 
 # Instructions
-Already familiar with this sort of project?  Then the instructions below should get you going.  Brand new to this sort of thing? then check out the detailed instructions here:
+Already familiar with this sort of project?  Then the instructions in this readme should get you going.  
+
+Brand new to this sort of thing? then check out the detailed instructions here:
 https://github.com/cmgerdes/Easy-MQTT-Switch/blob/master/DetailedInstructions.md
 
 ## Prerequisites
