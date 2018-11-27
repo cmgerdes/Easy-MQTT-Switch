@@ -1,0 +1,4 @@
+Makerfocus D1 Mini NodeMcu - https://www.amazon.com/gp/product/B01N3P763C/ref=oh_aui_detailpage_o02_s01?ie=UTF8&psc=1
+Tolako 5v Relay Module for Arduino ARM PIC AVR MCU 5V  - https://www.amazon.com/gp/product/B00VRUAHLE/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1
+USB power module - https://www.amazon.com/gp/product/B0734SN6VR/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1
+Assorted wires - https://www.amazon.com/gp/product/B077X7MKHN/ref=oh_aui_detailpage_o00_s01?ie=UTF8&psc=1
