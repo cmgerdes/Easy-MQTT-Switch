@@ -30,8 +30,9 @@ The build is, in general fairly simple.  You will do the following:
 2. Edit your HA Config.YAML to add the entry here: https://github.com/cmgerdes/Easy-Wemos-Switch/blob/master/Configuration.yaml
 3. Open and compile the .ino here: https://github.com/cmgerdes/Easy-Wemos-Switch/blob/master/MqttSwitch.ino
 4. Edit the code to substitute your values in for the variables at the top of the file.  Refer to the comments or the detailed instructions for what each does.
-5. Wire the control and relay according to this schematic: https://github.com/cmgerdes/Easy-MQTT-Switch/blob/master/WemosSchematic.png.  Note that your device should go across the "NO" (normally open) pins of the relay
-6. Glue the wemos board to the top of the relay plastic enclosure with the usb connector facing the same direction as the relay output pins.
-7. Print and mount the relay in the enclosure.
+5. Upload the code to the wemos and restart it.  You should see an AP come with the value you gave for host.  Connect this and provide your wireless network info and save.  The AP should disappear (because it is now connected to your network) and setup for the wemos is complete.
+6. Wire the control and relay according to this schematic: https://github.com/cmgerdes/Easy-MQTT-Switch/blob/master/WemosSchematic.png.  Note that your device should go across the "NO" (normally open) pins of the relay
+7. Glue the wemos board to the top of the relay plastic enclosure with the usb connector facing the same direction as the relay output pins.
+8. Print and mount the relay in the enclosure.
 
 Note that your device wires in the same way as if you were controlling it with a lightswitch.  Just use the relay to break or close the circuit.
