@@ -82,6 +82,7 @@ The primary focus of this project was making the electronics build simple.  Belo
 The above assemply is now ready to go into the enclosure.
 
 You can find a wiring diagram showing the above here: 
+https://github.com/cmgerdes/Easy-MQTT-Switch/blob/master/WemosSchematic.png
 
 ## Enclosure
 Simply do the following:
@@ -89,3 +90,6 @@ Simply do the following:
 2. attach the relay board to the bottom board of the enclosure using 3mm screws
 3. attach the usb cable to the wemos
 4. enclose the wemos with the enclosure lid and attach to the base using 5mm screws.
+
+# Attaching to your device
+This switch is simply intended to connect or disconnect two wires (the same way a light switch does).  Simply wire your device across the NO terminals in the same way you would use a light switch to turn the device on or off.
