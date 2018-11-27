@@ -7,7 +7,7 @@ http://automatedhome.party/2017/01/06/wifi-garage-door-controller-using-a-wemos-
 
 ## Limitations and maintenance
 
-This is intended to be a simple project.  The goals are broad application with low maintenance and low complexity enabling easy implementation by beginnings.
+This is intended to be a simple project.  The goals are broad application with low maintenance and low complexity enabling easy implementation by beginners.
 
 As with any project or device you create yourself, you do so at your own risk.  Please ensure you know how to work with electricity and that you wire and use this in a safe way.
 
